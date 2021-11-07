@@ -1,5 +1,3 @@
-# Coffee_and_coded
-
 ## Coffee and Code EDA
 ### by : Ihsanny Widyasari
 
@@ -18,7 +16,8 @@ import plotly.express as px
 
 This dataset provides information about coffee lovers and code developers in Lebanon and provides interesting data points from fields like -CodingHours, CoffeeCupsPerDay, CoffeeTime, CoffeeSolveBugs and Gender
 
-```df = pd.read_csv('/content/drive/MyDrive/Food data/archive (4)/CoffeeAndCodeLT2018 - CoffeeAndCodeLT2018.csv')
+```
+df = pd.read_csv('/content/drive/MyDrive/Food data/archive (4)/CoffeeAndCodeLT2018 - CoffeeAndCodeLT2018.csv')
 ```
 
 ```
