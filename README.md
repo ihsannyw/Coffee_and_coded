@@ -3,6 +3,7 @@
 
 Having a cup of coffee by your side while doing job has become part of a habit. Drinking the right amount of coffee can help increase focus. According to the Acceptable Daily Intake (ADI), the limit for caffeine consumption is 400 milligrams a day, that's about four or five cups of coffee.
 
+
 ## Importing Libraries
 
 ```import numpy as np
@@ -68,6 +69,7 @@ df = df.dropna()
 ```
 missing value successfully dropped
 
+
 ## Duplicated Handling
 
 ```
@@ -79,6 +81,7 @@ df[df.duplicated(keep=False)].sort_values('CodingHours')
 df = df.drop_duplicates()
 ```
 duplicate value successfully dropped
+
 
 ## DATA UNDERSTANDING
 
@@ -104,6 +107,7 @@ df[df_categoricals].describe()
 | freq          | 57            | 48	                  | 29	          | 41	               | 68	       | 94	        | 59          |
 
 Observation : Most of the data have > 2 unique values
+
 
 Showing the precise value counts
 
@@ -191,6 +195,7 @@ Observation :
 2. Mean ~ Median in CodingHours and CoffeeCupsPerDay columns, indicating somewhat a symmetrical distribution
 3. we also get information that the average person coding for 6-7 hours and the average person drinks coffee about 2-3 cups per day
 
+
 ## UNIVARIATE ANALYSIS
 
 Boxplot
@@ -222,6 +227,7 @@ Name: CoffeeCupsPerDay, dtype: int64
 
 Observation : 
 There is outlier in CoffeeCupsPerDay column, it is > 7 cups of coffee per day and it's still make sense
+
 
 ## MULTIVARIATE ANALYSIS
 
